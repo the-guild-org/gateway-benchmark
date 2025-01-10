@@ -1,4 +1,4 @@
-FROM rust:1.83.0 as builder
+FROM rust:1.84.0 as builder
 
 WORKDIR /usr/src/subgraph
 COPY Cargo.toml Cargo.lock ./
